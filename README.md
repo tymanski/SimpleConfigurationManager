@@ -1,6 +1,6 @@
 ## Description
 
-**SimpleConfigurationManager** (**SConfigManager**) is a component to deal with configurations in .NET apllications. For more information please refer to the article on [codeproject](link)
+**SimpleConfigurationManager** (**SConfigManager**) is a component to deal with configurations in .NET apllications. For more information please refer to the article on [codeproject](http://www.codeproject.com/Tips/1038926/Simple-ConfigurationManager-for-NET)
 
 
 ## Code Example
@@ -21,6 +21,9 @@ Example usage of the class:
 	// Get subconfiguration
 	SConfigManager loggerConfiguration = configuration.Children["Logger"];
 	Logger logger = new Logger(loggerConfiguration);
+
+For more information please refer to:
+[http://www.codeproject.com/Tips/1038926/Simple-ConfigurationManager-for-NET](http://www.codeproject.com/Tips/1038926/Simple-ConfigurationManager-for-NET)
 
 ## Installation
 
