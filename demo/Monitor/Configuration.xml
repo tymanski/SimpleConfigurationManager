@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration name="Agent01">
+  <settings>
+    <setting key="AgentName" value="Main" />
+  </settings>
+  <customxml></customxml>
+  <children>
+    <configuration name="Logger">
+      <settings>
+        <setting key="LogDirectory" value="D:/SConfigManagerTest/logs" />
+        <setting key="LogFilePrefix" value="agent_" />
+        <setting key="Enabled" value="true" />
+      </settings>
+      <customxml></customxml>
+      <children></children>
+    </configuration>
+    <configuration name="Watchers">
+      <children>
+        <configuration name="Watcher01">
+          <settings>
+            <setting key="Directory" value="D:/SConfigManagerTest/w1" />
+            <setting key="Filter" value="*.*" />
+          </settings>
+          <customxml></customxml>
+          <children></children>
+        </configuration>
+        <configuration name="Watcher02">
+          <settings>
+            <setting key="Directory" value="D:/SConfigManagerTest/w2" />
+            <setting key="Filter" value="*.*" />
+          </settings>
+          <customxml></customxml>
+          <children></children>
+        </configuration>
+      </children>
+    </configuration>
+  </children>
+</configuration>
